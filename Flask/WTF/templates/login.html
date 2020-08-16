@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel Universe</title>
+</head>
+<body>
+    <form method="POST" action="{{ url_for('login') }}">
+
+        {{ form.hidden_tag() }}
+        {{ form.user.label }}? {{ form.user(size=20) }}
+
+        <input type="submit" name="Favorite hero" value="Submit">
+    </form>
+</body>
+</html>
