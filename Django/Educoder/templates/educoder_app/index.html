@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <a href="/create/">create</a>
+    <ul>
+        {%for book in book_list%}
+            <li>《{{book.b_title}}》 -- <a href="/delete{{book.id}}/">delete</a> -- <a href="/edit_d{{book.id}}/">edit</a></li>
+        {%endfor%}
+    </ul>
+</body>
+</html>

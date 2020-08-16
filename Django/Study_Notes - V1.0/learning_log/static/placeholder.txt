@@ -1,0 +1,2 @@
+The file to ensure that the learning_log/static/ folder is added to the Project.
+Django static files will be collected, and place them in a statigitc/ folder.

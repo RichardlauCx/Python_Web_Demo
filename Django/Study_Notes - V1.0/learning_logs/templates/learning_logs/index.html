@@ -1,0 +1,19 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+	<div class="jumbotron">
+		<h1>Real - time learning process.</h1>
+	</div>
+{% endblock header %}
+
+{% block content %}
+	<h2>
+		<a href="{% url 'users:register' %}">Register an account</a>:
+		When you register the account, can let you have your own learning records, and some of them listed on your journey of learning.
+	</h2>
+	<h2>
+		When you get your own theme, you can add some entries in for it
+	</h2>
+	<br><br><br>
+    <p>Learning Log helps you keep track of your learning, for any topic you're learning about!</p>
+{% endblock content %}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+    <form method="post" action="/edit_s{{ id }}/">
+        {% csrf_token %}
+        Title: <input type="text" name="b_title" maxlength="20" value="{{ b_title }}"><br>
+        Pub_Date: <input type="text" name="b_pub_date" maxlength="20" value="{{ b_pub_date }}"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
