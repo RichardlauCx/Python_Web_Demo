@@ -6,3 +6,4 @@ Practice on the Python Web implementation
     1. Django的virtual environment
     2. Vue的脚手架以及node_modules
     3. etc
+
