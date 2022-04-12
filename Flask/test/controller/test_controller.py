@@ -54,7 +54,7 @@ def get_test2():
 
 
 # 3. POST请求，带参数
-# URL:
+# URL: http://127.0.0.1:8088/testModule/post_test1
 @testModule.route("/post_test1", methods=["POST"])
 def post_test1():
     return_dic = {
